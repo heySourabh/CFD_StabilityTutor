@@ -4,6 +4,9 @@ Java tool for understanding stability of few CFD schemes.
 You can try out the tool by just using the binary:  
 [https://github.com/heySourabh/CFD_StabilityTutor/blob/master/bin/StabilityTutor.jar?raw=true](https://github.com/heySourabh/CFD_StabilityTutor/blob/master/bin/StabilityTutor.jar?raw=true). Double clicking the `StabilityTutor.jar` should be enough to launch the executable if Java is installed on your computer.
 
+or use the command:
+`java -jar StabilityTutor.jar`
+
 This is a tool for CFD learners and CFD teachers to demonstrate the effects of changing parameters like Courant number, space differencing, time differencing, number of divisions and stopping time on the numerical solution of Advection or Diffusion PDE.
 
 Enter the parameters and make selections in the top panel, and then click the play or final solution button.
